@@ -136,7 +136,7 @@ int main() {
 
     // 雛形では人対人（両者クリック）で動きます。
     // 白を簡易AIにしたい場合は次のフラグを true にしてください。
-    bool aiWhite = false;
+    bool aiWhite = true;
 
     UI ui;
     sf::RenderWindow win(sf::VideoMode(sf::Vector2u((unsigned)ui.W, (unsigned)ui.H)), "Reversi (SFML) - Turn: Black");
